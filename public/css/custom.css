@@ -1,0 +1,132 @@
+.box-header-background {
+    color: #FFF;
+    background-color: #367fa9;
+}
+.box-header-background-light {
+    color: #000;
+    background-color: #f0f3f5;
+}
+
+.box-background{
+    background-color: #ececec;
+    padding: 20px 0px 0px 10px;
+}
+.box-header.with-border {
+    border-bottom: 1px solid #f4f4f4;
+}
+
+.collapsed-box .box-header.with-border {
+    border-bottom: none;
+}
+.modal.modal-wide .modal-dialog {
+    width: 60%;
+}
+.modal-wide .modal-body {
+    overflow-y: auto;
+}
+
+#modalSmall .modal-dialog  {width:40%;}
+
+
+.ui-autocomplete {
+    max-height: 200px;
+    overflow-y: auto;   /* prevent horizontal scrollbar */
+    overflow-x: hidden; /* add padding to account for vertical scrollbar */
+    z-index:1000 !important;
+}
+
+.unite{
+    border: none;
+    border-radius: 0;
+    margin-bottom: 5px;
+    background-color: #f3c17a;
+}
+
+#dataTables-example_wrapper .row{
+    margin-bottom: 0px;
+}
+
+#order .form-control[disabled]{
+    background-color: #CACBC5;
+    font-style: unset;
+    font-weight: bold;
+    font-size: 18px;
+    color: #000;
+}
+
+.tab-panel ul, ol {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding-left: 5%;
+}
+
+.box-color{
+    color: #000;
+}
+
+/* General Links */
+a {
+    color: #3c8dbc;
+}
+a:hover,
+a:active,
+a:focus {
+    outline: none;
+    text-decoration: none;
+    color: #72afd2;
+}
+/*
+ * Component: Table
+ * ----------------
+ */
+.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td,
+.table > tfoot > tr > td {
+    border-top: 1px solid #d9d9d9;
+}
+.table > thead > tr > th {
+    border-bottom: 2px solid #d9d9d9;
+}
+
+
+
+.table tr td .progress {
+    margin-top: 5px;
+}
+.table-bordered {
+    border: 1px solid #d9d9d9;
+}
+.table-bordered > thead > tr > th,
+.table-bordered > tbody > tr > th,
+.table-bordered > tfoot > tr > th,
+.table-bordered > thead > tr > td,
+.table-bordered > tbody > tr > td,
+.table-bordered > tfoot > tr > td {
+    border: 1px solid #d9d9d9;
+}
+.table-bordered > thead > tr > th,
+.table-bordered > thead > tr > td {
+    border-bottom-width: 2px;
+}
+.table.no-border,
+.table.no-border td,
+.table.no-border th {
+    border: 0;
+}
+.mandat-tr .form-control {
+    padding: 6px;
+}
+
+/************ apply the css print Start ************/
+/*.print_area{*/
+/*display: none;*/
+/*}*/
+@media print {
+    @page{
+        size: A4 portrait;
+    }
+
+}
